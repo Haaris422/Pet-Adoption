@@ -1,0 +1,48 @@
+.homep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 15px 5px grey;
+    border-radius: 15px;
+    position: relative;
+}
+
+.homep > .button {
+    background: blue;
+    border: 1px solid blue;
+    color: antiquewhite;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: 37rem;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    margin-top: 20px;
+}
+
+.adopt {
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 0 0 15px 5px grey;
+    border-radius: 15px;
+    
+    text-align: center;
+    cursor: pointer;
+}
+.nodopt {
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 0 0 15px 5px grey;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}

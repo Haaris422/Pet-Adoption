@@ -1,0 +1,12 @@
+.button {
+    background: blue;
+    border: 1px solid blue;
+    color: antiquewhite;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: 37rem;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
